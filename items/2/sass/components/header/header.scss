@@ -1,0 +1,18 @@
+.header {
+
+  padding-top: 29px;
+  padding-bottom: 22px;
+&:after{
+  content: '';
+  display: table;
+  clear: both;
+}
+  @media(max-width: 767px){
+
+    padding-top: 19px;
+    padding-bottom: 12px;
+  }
+}
+
+
+@import 'nav';

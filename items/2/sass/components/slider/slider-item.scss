@@ -1,0 +1,35 @@
+.slider-item{
+	    display: inline-block;
+&:focus{
+	outline: none;
+}
+//width: 230px;
+margin: 0 23px;
+	&__image{
+	margin-bottom: 20px;
+& img{
+	width: 100%;
+		transition: 0.4s;
+}
+	overflow:hidden;
+	&:hover{
+		& img{
+	    transform: scale(1.06)
+		}
+
+	}
+}
+
+&__title{
+	    margin-bottom: 10px;
+	float: left;
+}
+&__price{
+	float: right;
+}
+&__stars{
+
+	    clear: both;
+}
+}
+

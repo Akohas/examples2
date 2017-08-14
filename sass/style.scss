@@ -1,0 +1,28 @@
+@import 'normalize.scss';
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background: #e8e8e8;
+}
+.wrapper{
+  width: 990px;
+  margin: 0 auto;
+}
+.main{
+  text-align: center;
+  background: #fff;
+  box-shadow: 2px 5px 11px rgba(0, 0, 0, 0.34);
+  padding: 15px;
+  margin-top: 50px;
+}
+.links{
+  &__item{
+    margin-bottom: 20px;
+    line-height: 1.5;
+    &_gt{
+    margin-bottom: 0;
+    margin-top: 30px
+    }
+  }
+}

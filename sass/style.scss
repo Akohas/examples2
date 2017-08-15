@@ -16,19 +16,29 @@ body{
   padding: 15px;
   margin-top: 50px;
 }
-.links{
-  &__item{
+
+
+.links-item{
     margin-bottom: 20px;
     line-height: 1.5;
     &_gt{
     margin-bottom: 0;
-    margin-top: 30px
+    margin-top: 40px
+    }
+    &__description{
+    margin-top: 10px;
+    margin-bottom: 0;
     }
   }
-}
 
 .git-img{
   width: 40px;
   height: 40px;
  
+}
+.link{
+  font-size: 18px;
+}
+.link_sm{
+  font-size: 14px;
 }

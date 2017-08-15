@@ -3,18 +3,21 @@ block main
   .wrapper
     .main
       .links
-        .links__item
-          a(target="blank" href='items/1/views/html/index.html') Mogo
-          p адаптивная верстка, gulp, sass.
-        .links__item
-          a(target="blank" href='items/2/public/html/index.html') Resto
-          p адаптивная верстка, gulp, sass, grid fallback.
-        .links__item
-          a(target="blank" href='http://52.14.202.2') kekapp
-          p Приложение для учета финансов. React, redux, react-router.
-        .links__item
-          a(target="blank" href='https://www.castlerock.ru/') castlerock.ru
-          p Проект с предыдущего места работы. Bemjson, sass, адаптивная верстка
-        .links__item.links__item_gt
+        .links-item
+          a(target="blank" href='items/1/views/html/index.html').link Mogo
+          p.links-item__description адаптивная верстка, gulp, sass.
+          a(target="blank" href='https://github.com/Akohas/mogo').link_sm Ссылка на github
+        .links-item
+          a(target="blank" href='items/2/public/html/index.html').link Resto
+          p.links-item__description адаптивная верстка, gulp, sass, grid fallback.
+          a(target="blank" href='https://github.com/Akohas/resto').link_sm  Ссылка на github
+        .links-item
+          a(target="blank" href='http://52.14.202.2').link kekapp
+          p.links-item__description Приложение для учета финансов. React, redux, react-router.
+          a(target="blank" href='https://github.com/Akohas/kekApp').link_sm  Ссылка на github
+        .links-item
+          a(target="blank" href='https://www.castlerock.ru/').link castlerock.ru
+          p.links-item__description Проект с предыдущего места работы. Bemjson, sass, адаптивная верстка
+        .links-item.links-item_gt
           a(target="blank" href="https://github.com/Akohas")
             img(src="./public/images/git.png").git-img
